@@ -67,9 +67,41 @@ code {
 }
 
 .home {
-  color: var(--dark);
-  text-shadow: 3px 3px 3px var(--mint);
+  color: var(--forest);
+  text-shadow: 4px 4px 7px var(--mint);
   font-size: 100px;
   font-weight: bolder;
   text-align: center;
+}
+
+nav {
+
+  width: 100%;
+  overflow: auto;
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+}
+
+nav a {
+  padding: 30px;
+  width: 33.33%;
+  text-align: center;
+  color: var(--mint);
+  text-shadow: 1.5px 1.5px 1.5px var(--forest)
+}
+
+nav a:hover{
+  color: var(--blush);
+  text-shadow: 1.5px 1.5px 1.5px var(--raspberrySorbet)
+}
+
+nav a:focus {
+  color: var(--orchid);
+  text-shadow: 1.5px 1.5px 1.5px var(--amethystOrchid);
+}
+
+nav a:active {
+  color: var(--palegold);
+  text-shadow: 1.5px 1.5px 1.5px var(--gold);
 }
