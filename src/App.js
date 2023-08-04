@@ -5,7 +5,6 @@ function App() {
   return (
 
     <div>
-
       <nav>
         <Link to="/home">particles</Link> |{" "}
         <Link to="/artWork">artWork</Link>

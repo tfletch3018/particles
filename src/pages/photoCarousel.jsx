@@ -7,7 +7,6 @@ function PhotoCarousel() {
     return (
         <div>
             <Container>
-
                 <Row>
                     <h1 className="photoCarousel">photoCarousel</h1>
                     <p id="photoCarousel" class="text-center">Slide Show Creations</p>
@@ -22,9 +21,7 @@ function PhotoCarousel() {
                         </Link>
                     </div>
                 </Row>
-
             </Container>
-
 
         </div>
     )

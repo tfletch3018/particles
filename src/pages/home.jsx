@@ -8,6 +8,7 @@ function Home() {
     return (
         <div>
             <Container>
+
                 <Animate />
 
                 <Container>
@@ -26,15 +27,13 @@ function Home() {
                             </Link>
 
                             <Link to="/home/sampleTwo">
-                            <button id="homebtn" onclick="a href">Sample Two</button>
+                                <button id="homebtn" onclick="a href">Sample Two</button>
                             </Link>
-
                         </div>
                     </Row>
                 </Container>
 
             </Container>
-
 
         </div>
     )
