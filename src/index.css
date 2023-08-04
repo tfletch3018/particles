@@ -66,6 +66,22 @@ code {
     monospace;
 }
 
+p {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#home {
+  color: var(--mint);
+  text-shadow: 4px 4px 7px var(--forest);
+}
+
 .home {
   color: var(--forest);
   text-shadow: 4px 4px 7px var(--mint);
@@ -73,6 +89,102 @@ code {
   font-weight: bolder;
   text-align: center;
 }
+
+#homebtn{
+  background-color:var(--mint);
+  border:none;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px 0 var(--forest), 0 6px 20px 0 var(--fog);
+  color: var(--forest);
+  padding: 15px 32px;
+  text-align: center;
+  text-shadow: 4px 4px 7px var(--forest);
+  width:200px;
+  height: 70px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#homebtn:hover{
+  background-color:var(--cerulean);
+  box-shadow: 0 8px 16px 0 var(--navy), 0 6px 20px 0 var(--fog);
+  color: var(--navy);
+  text-shadow: 4px 4px 7px var(--navy);
+}
+
+#artWorkbtn{
+  background-color:var(--blush);
+  border:none;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px 0 var(--raspberrySorbet), 0 6px 20px 0 var(--fog);
+  color: var(--raspberrySorbet);
+  padding: 15px 32px;
+  text-align: center;
+  text-shadow: 4px 4px 7px var(--raspberrySorbet);
+  width:200px;
+  height: 70px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#artWorkbtn:hover{
+  background-color:var(--palegold);
+  box-shadow: 0 8px 16px 0 var(--gold), 0 6px 20px 0 var(--fog);
+  color: var(--gold);
+  text-shadow: 4px 4px 7px var(--gold);
+}
+
+#photoCarouselbtn{
+  background-color:var(--orchid);
+  border:none;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px 0 var(--amethystOrchid), 0 6px 20px 0 var(--fog);
+  color: var(--amethystOrchid);
+  padding: 15px 32px;
+  text-align: center;
+  text-shadow: 4px 4px 7px var(--amethystOrchid);
+  width:200px;
+  height: 70px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#photoCarouselbtn:hover{
+  background-color:var(--marigold);
+  box-shadow: 0 8px 16px 0 var(--orange), 0 6px 20px 0 var(--fog);
+  color: var(--orange);
+  text-shadow: 4px 4px 7px var(--orange);
+}
+
+#artWork {
+  color: var(--blush);
+  text-shadow: 4px 4px 7px var(--raspberrySorbet);
+}
+
+.artWork{
+  color: var(--raspberrySorbet);
+  text-shadow: 4px 4px 7px var(--blush);
+  font-size: 100px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+#photoCarousel {
+  color: var(--orchid);
+  text-shadow: 4px 4px 7px var(--amethystOrchid);
+}
+
+.photoCarousel{
+  color: var(--amethystOrchid);
+  text-shadow: 4px 4px 7px var(--orchid);
+  font-size: 100px;
+  font-weight: bolder;
+  text-align: center;
+}
+
 
 nav {
 

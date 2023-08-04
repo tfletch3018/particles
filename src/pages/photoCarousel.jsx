@@ -1,5 +1,6 @@
 import Container from "../components/Container";
 import Row from "../components/Row";
+import { Link } from "react-router-dom";
 import "../index.css";
 
 function PhotoCarousel() {
@@ -8,12 +9,19 @@ function PhotoCarousel() {
             <Container>
 
                 <Row>
-
-                    <h1 className="home">photoCarousel</h1>
-
+                    <h1 className="photoCarousel">photoCarousel</h1>
+                    <p id="photoCarousel" class="text-center">Slide Show Creations</p>
                 </Row>
+            </Container>
 
-
+            <Container fluid style={{ marginTop: 100 }}>
+                <Row>
+                    <div className="center">
+                        <Link to="/photoCarousel/slideShow">
+                            <button id="photoCarouselbtn">Play Slide Show</button>
+                        </Link>
+                    </div>
+                </Row>
 
             </Container>
 
