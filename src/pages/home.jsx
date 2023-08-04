@@ -24,15 +24,15 @@ function Home() {
                             <Link to="/home/sampleOne">
                                 <button id="homebtn">Sample One</button>
                             </Link>
-                            <Link to="/home/sampleTwo">
 
+                            <Link to="/home/sampleTwo">
                             <button id="homebtn" onclick="a href">Sample Two</button>
                             </Link>
+
                         </div>
-
                     </Row>
-
                 </Container>
+
             </Container>
 
 

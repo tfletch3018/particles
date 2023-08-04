@@ -1,5 +1,6 @@
 import Container from "../components/Container";
 import Row from "../components/Row";
+import { Link } from "react-router-dom";
 import "../index.css";
 
 function ImageOne() {
@@ -16,7 +17,15 @@ function ImageOne() {
 
             </Container>
 
-
+            <Container fluid style={{ marginTop: 200 }}>
+                    <Row>
+                        <div className="center">
+                            <Link to="/artWork">
+                                <button id="artWorkbtn">Go Back</button>
+                            </Link>
+                        </div>
+                    </Row>
+                </Container>
         </div>
     )
 }

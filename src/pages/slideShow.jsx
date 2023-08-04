@@ -1,5 +1,6 @@
 import Container from "../components/Container";
 import Row from "../components/Row";
+import { Link } from "react-router-dom";
 import "../index.css";
 
 function SlideShow() {
@@ -12,7 +13,15 @@ function SlideShow() {
                 </Row>
             </Container>
 
-
+            <Container fluid style={{ marginTop: 200 }}>
+                <Row>
+                    <div className="center">
+                        <Link to="/photoCarousel">
+                            <button id="photoCarouselbtn">Go Back</button>
+                        </Link>
+                    </div>
+                </Row>
+            </Container>
         </div>
     )
 }
