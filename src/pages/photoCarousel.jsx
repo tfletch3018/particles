@@ -9,7 +9,7 @@ function PhotoCarousel() {
 
                 <Row>
 
-                    <h1 className="">photoCarousel</h1>
+                    <h1 className="home">photoCarousel</h1>
 
                 </Row>
 

@@ -9,7 +9,7 @@ function ArtWork() {
 
                 <Row>
 
-                    <h1 className="">artWork</h1>
+                    <h1 className="home">artWork</h1>
 
                 </Row>
 

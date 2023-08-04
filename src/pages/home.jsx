@@ -9,7 +9,7 @@ function Home() {
 
                 <Row>
 
-                    <h1 className="">particles</h1>
+                    <h1 className="home">particles</h1>
 
                 </Row>
 
