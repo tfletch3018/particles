@@ -2,7 +2,7 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import "../index.css";
 
-function photoCarousel() {
+function PhotoCarousel() {
     return (
         <div>
             <Container>
@@ -22,4 +22,4 @@ function photoCarousel() {
     )
 }
 
-export default photoCarousel;
+export default PhotoCarousel;

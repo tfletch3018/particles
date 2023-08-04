@@ -2,7 +2,7 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import "../index.css";
 
-function artWork() {
+function ArtWork() {
     return (
         <div>
             <Container>
@@ -22,4 +22,4 @@ function artWork() {
     )
 }
 
-export default artWork;
+export default ArtWork;
