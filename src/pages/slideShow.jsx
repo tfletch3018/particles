@@ -18,7 +18,7 @@ function SlideShow() {
                 <CarouselComponent />
             </Container>
 
-            <Container>
+            <Container fluid style={{ marginTop: 80 }}>
                 <Row>
                     <div className="center">
                         <Link to="/photoCarousel">
