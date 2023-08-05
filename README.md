@@ -18,7 +18,7 @@ If you would like to demo this program, please click on the link in the finished
 ## Development in Progress, view the current status...
 [Check out the deployed application on Github Pages!](https://tfletch3018.github.io/particles/)
 
-[Watch the demo video](https://drive.google.com/file/d/1_uMt1Xb7gX8pU_n1qQ9_qx_ZKljYXPnD/view?usp=sharing)
+[Watch the demo video](https://drive.google.com/file/d/1CKBT-zkSQeQauMNQ1ERRmCOgDAzzWcoO/view?usp=sharing)
 
 ## Badges
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
