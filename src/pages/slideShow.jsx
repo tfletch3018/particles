@@ -10,7 +10,7 @@ function SlideShow() {
             <Container>
                 <Row>
                     <h1 className="photoCarousel">Slide Show!</h1>
-                    <p id="photoCarousel" class="text-center">A slideshow will play upon user request</p>
+                    <p id="photoCarousel" className="text-center">Enjoy the show&#128151;</p>
                 </Row>
             </Container>
 
@@ -18,7 +18,7 @@ function SlideShow() {
                 <CarouselComponent />
             </Container>
 
-            <Container fluid style={{ marginTop: 200 }}>
+            <Container>
                 <Row>
                     <div className="center">
                         <Link to="/photoCarousel">
