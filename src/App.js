@@ -6,7 +6,7 @@ function App() {
 
     <div>
       <nav>
-        <Link to="/home">particles</Link> |{" "}
+        <Link to="/home">particles</Link> {" "}
         <Link to="/artWork">artWork</Link>
         <Link to="/photoCarousel">photoCarousel</Link>
       </nav>
