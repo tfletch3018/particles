@@ -9,7 +9,7 @@ To install this repository on your local drive, clone the ssh key. Open your loc
 ## Usage
 If you would like to demo this program, please click on the link in the finished project section of this README.
 
-<img src="">
+<img src="src\images\demo.gif">
 
 <img src="src\images\Screenshot1.png">
 <img src="src\images\Screenshot2.png">
