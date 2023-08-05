@@ -1,6 +1,7 @@
 import Container from "../components/Container";
 import Row from "../components/Row";
 import { Link } from "react-router-dom";
+import CarouselComponent from "../components/Carousel";
 import "../index.css";
 
 function SlideShow() {
@@ -11,6 +12,10 @@ function SlideShow() {
                     <h1 className="photoCarousel">Slide Show!</h1>
                     <p id="photoCarousel" class="text-center">A slideshow will play upon user request</p>
                 </Row>
+            </Container>
+
+            <Container>
+                <CarouselComponent />
             </Container>
 
             <Container fluid style={{ marginTop: 200 }}>
