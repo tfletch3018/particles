@@ -10,7 +10,7 @@ function ImageOne() {
                 {/* <Container fluid style={{ marginTop: 100 }}> */}
                 <Row>
                     <h1 className="artWorkTwo">Image One</h1>
-                    <p id="artWork" className="text-center">Maybe we will just use this for original styling elements</p>
+                    <p id="artWork" className="text-center"></p>
                 </Row>
             </Container>
 

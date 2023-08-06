@@ -14,7 +14,7 @@ function SampleTwo() {
                 <Container fluid style={{ marginTop: 50 }}>
                     <Row>
                         <h1 className="homeTwo">Sample Two</h1>
-                        <p id="home" className="text-center">Triangles <span id="symbols">&#9651;</span></p>
+                        <p id="home" className="text-center"><span id="symbols">&#9651;&#9651;&#9651;</span> Triangles <span id="symbols">&#9651;&#9651;&#9651;</span></p>
                     </Row>
                 </Container>
 
