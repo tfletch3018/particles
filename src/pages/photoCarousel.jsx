@@ -6,14 +6,14 @@ import "../index.css";
 function PhotoCarousel() {
     return (
         <div>
-                <Container fluid style={{ marginTop: 100 }}>
+                <Container fluid style={{ marginTop: 50 }}>
                 <Row>
                     <h1 className="photoCarousel">photoCarousel</h1>
                     <p id="photoCarousel" className="text-center">Slide Show Creations</p>
                 </Row>
             </Container>
 
-            <Container fluid style={{ marginTop: 100 }}>
+            <Container fluid style={{ marginTop: 50 }}>
                 <Row>
                     <div className="center">
                         <Link to="/photoCarousel/slideShow">

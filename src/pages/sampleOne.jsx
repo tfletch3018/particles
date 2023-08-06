@@ -1,19 +1,24 @@
 import Container from "../components/Container";
 import Row from "../components/Row";
 import { Link } from "react-router-dom";
+import Animate1 from "../components/Animate1/particles";
 import "../index.css";
 
 function SampleOne() {
     return (
         <div>
-                <Container fluid style={{ marginTop: 100 }}>
+            <Container>
+
+                <Animate1 />
+
+                <Container fluid style={{ marginTop: 50 }}>
                 <Row>
                     <h1 className="homeTwo">Sample One</h1>
-                    <p id="home" className="text-center">This is a new route successfully connected to the particles main page using a button</p>
+                    <p id="home" className="text-center">Squares <span id="symbols">&#9633;</span></p>
                 </Row>
             </Container>
 
-            <Container fluid style={{ marginTop: 200 }}>
+            <Container fluid style={{ marginTop: 50 }}>
                     <Row>
                         <div className="center">
                             <Link to="/home">
@@ -21,6 +26,7 @@ function SampleOne() {
                             </Link>
                         </div>
                     </Row>
+                </Container>
                 </Container>
         </div>
     )

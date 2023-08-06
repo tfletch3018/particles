@@ -11,14 +11,14 @@ function Home() {
 
                 <Animate />
 
-                <Container fluid style={{ marginTop: 100}}>
+                <Container fluid style={{ marginTop: 50}}>
                     <Row>
                         <h1 className="home">particles</h1>
                         <p id="home" className="text-center">Animation Creations</p>
                     </Row>
                 </Container>
 
-                <Container fluid style={{ marginTop: 100 }}>
+                <Container fluid style={{ marginTop: 50 }}>
                     <Row>
                         <div className="center">
 

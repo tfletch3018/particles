@@ -6,14 +6,14 @@ import "../index.css";
 function ArtWork() {
     return (
         <div>
-                <Container fluid style={{ marginTop: 100 }}>
+                <Container fluid style={{ marginTop: 50 }}>
                 <Row>
                     <h1 className="artWork">artWork</h1>
                     <p id="artWork" className="text-center">Texture, pattern & color creations</p>
                 </Row>
             </Container>
 
-            <Container fluid style={{ marginTop: 100 }}>
+            <Container fluid style={{ marginTop: 50 }}>
                 <Row>
                     <div className="center">
                         <Link to="/artWork/imageOne">

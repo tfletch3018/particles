@@ -1,0 +1,83 @@
+:root {
+  --forest:#004d26;
+  --gold:#ffd700;
+  --amethystOrchid: #926aa6;
+  --raspberrySorbet:#d2386c;
+}
+.footer {
+  /* bottom: 0; */
+  background-color: transparent;
+  flex: 0 0 50px;/*or just height:50px;*/
+  margin-top: auto;
+}
+
+.footer span {
+  position:fixed;
+  bottom: 10px;
+  left: 10px;
+  right: 0;
+  padding: 3px;
+  background:transparent;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+nav {
+  width: 100%;
+  overflow: auto;
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+}
+
+i.fab {
+  color: var(--mint);
+  text-shadow: 3px 3px 3px var(--forest);
+  font-size: 20px;
+  font-weight:bolder;
+  text-align: center;
+  padding: 30px;
+}
+
+i.fab:hover {
+  color: var(--blush);
+  text-shadow: 3px 3px 3px var(--raspberrySorbet);
+}
+
+i.fab:focus {
+  color: var(--orchid);
+  text-shadow: 3px 3px 3px var(--amethystOrchid);
+}
+
+i.fab:active {
+  color: var(--palegold);
+  text-shadow: 3px 3px 3px var(--gold);
+}
+
+i.fas {
+  color: var(--mint);
+  text-shadow: 3px 3px 3px var(--forest);
+  /* font-size: 20px; */
+  font-weight:bolder;
+  text-align: center;
+  padding: 30px;
+}
+
+i.fas:hover {
+  color: var(--blush);
+  text-shadow: 3px 3px 3px var(--raspberrySorbet);
+}
+
+i.fas:focus {
+  color: var(--orchid);
+  text-shadow: 3px 3px 3px var(--amethystOrchid);
+}
+
+i.fas:active {
+  color: var(--palegold);
+  text-shadow: 3px 3px 3px var(--gold);
+}
+

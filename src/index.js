@@ -15,6 +15,7 @@ import SampleTwo from './pages/sampleTwo';
 import ImageOne from './pages/imageOne';
 import ImageTwo from './pages/imageTwo';
 import SlideShow from './pages/slideShow';
+import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -37,8 +38,9 @@ root.render(
         <Route path="/photoCarousel/slideShow" element={<SlideShow />} />
 
       </Route>
-
+    
     </Routes>
+    <Footer />
   </HashRouter>
 );
 

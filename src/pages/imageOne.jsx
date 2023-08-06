@@ -14,7 +14,7 @@ function ImageOne() {
                 </Row>
             </Container>
 
-            <Container fluid style={{ marginTop: 200 }}>
+            <Container fluid style={{ marginTop: 50 }}>
                 <Row>
                     <div className="center">
                         <Link to="/artWork">

@@ -71,12 +71,8 @@ p {
   font-weight: 500;
 }
 
-h1 {
-  font-size: 100px;
-}
-
-h2 {
-  font-size: 60px;
+.row>* {
+  padding-top: 71px;
 }
 
 .center {
@@ -108,7 +104,7 @@ h2 {
   text-align: center;
 }
 
-#homebtn{
+#homebtn {
   background-color:var(--mint);
   border:none;
   border-radius: 12px;
@@ -124,14 +120,14 @@ h2 {
   margin: 4px 2px;
   cursor: pointer;
 }
-#homebtn:hover{
+#homebtn:hover {
   background-color:var(--cerulean);
   box-shadow: 0 8px 16px 0 var(--navy), 0 6px 20px 0 var(--fog);
   color: var(--navy);
   text-shadow: 4px 4px 7px var(--navy);
 }
 
-#artWorkbtn{
+#artWorkbtn {
   background-color:var(--blush);
   border:none;
   border-radius: 12px;
@@ -147,14 +143,14 @@ h2 {
   margin: 4px 2px;
   cursor: pointer;
 }
-#artWorkbtn:hover{
+#artWorkbtn:hover {
   background-color:var(--palegold);
   box-shadow: 0 8px 16px 0 var(--gold), 0 6px 20px 0 var(--fog);
   color: var(--gold);
   text-shadow: 4px 4px 7px var(--gold);
 }
 
-#photoCarouselbtn{
+#photoCarouselbtn {
   background-color:var(--orchid);
   border:none;
   border-radius: 12px;
@@ -170,7 +166,7 @@ h2 {
   margin: 4px 2px;
   cursor: pointer;
 }
-#photoCarouselbtn:hover{
+#photoCarouselbtn:hover {
   background-color:var(--marigold);
   box-shadow: 0 8px 16px 0 var(--orange), 0 6px 20px 0 var(--fog);
   color: var(--orange);
@@ -181,7 +177,6 @@ h2 {
   color: var(--blush);
   text-shadow: 4px 4px 7px var(--raspberrySorbet);
 }
-
 .artWork{
   color: var(--raspberrySorbet);
   text-shadow: 4px 4px 7px var(--blush);
@@ -202,8 +197,7 @@ h2 {
   color: var(--orchid);
   text-shadow: 4px 4px 7px var(--amethystOrchid);
 }
-
-.photoCarousel{
+.photoCarousel {
   color: var(--amethystOrchid);
   text-shadow: 4px 4px 7px var(--orchid);
   font-size: 100px;
@@ -218,7 +212,6 @@ h2 {
   text-align: center;
 }
 
-
 nav {
   width: 100%;
   overflow: auto;
@@ -226,7 +219,6 @@ nav {
   border: none;
   font-size: 30px;
 }
-
 nav a {
   padding: 30px;
   width: 33.33%;
@@ -234,17 +226,14 @@ nav a {
   color: var(--mint);
   text-shadow: 1.5px 1.5px 1.5px var(--forest)
 }
-
 nav a:hover{
   color: var(--blush);
   text-shadow: 1.5px 1.5px 1.5px var(--raspberrySorbet)
 }
-
 nav a:focus {
   color: var(--orchid);
   text-shadow: 1.5px 1.5px 1.5px var(--amethystOrchid);
 }
-
 nav a:active {
   color: var(--palegold);
   text-shadow: 1.5px 1.5px 1.5px var(--gold);
@@ -252,7 +241,6 @@ nav a:active {
 
 .background1 {
   height: 90vw;
-  /* height: 500px; */
   justify-content: center;
   align-items: center;
   background-image: url("./images/background1.png");
@@ -269,4 +257,10 @@ nav a:active {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+#symbols{
+  color: var(--forest);
+  text-shadow: 4px 4px 7px var(--mint);
+  font-size: 60px;
 }
