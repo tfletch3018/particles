@@ -9,7 +9,7 @@ function ImageTwo() {
                 <Container>
                 <Row>
                     <h1 className="artWorkTwo">Image Two</h1>
-                    <p id="artWork" class="text-center">Photo Element Innovation?</p>
+                    <p id="artWork" className="text-center">Photo Element Innovation?</p>
                 </Row>
             </Container>
 

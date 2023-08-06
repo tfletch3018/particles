@@ -9,7 +9,7 @@ function ArtWork() {
                 <Container fluid style={{ marginTop: 100 }}>
                 <Row>
                     <h1 className="artWork">artWork</h1>
-                    <p id="artWork" class="text-center">Texture, pattern & color creations</p>
+                    <p id="artWork" className="text-center">Texture, pattern & color creations</p>
                 </Row>
             </Container>
 
@@ -21,7 +21,7 @@ function ArtWork() {
                         </Link>
 
                         <Link to="/artWork/imageTwo">
-                            <button id="artWorkbtn" onclick="a href">Image Two</button>
+                            <button id="artWorkbtn">Image Two</button>
                         </Link>
                     </div>
                 </Row>

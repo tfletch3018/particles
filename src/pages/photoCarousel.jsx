@@ -9,7 +9,7 @@ function PhotoCarousel() {
                 <Container fluid style={{ marginTop: 100 }}>
                 <Row>
                     <h1 className="photoCarousel">photoCarousel</h1>
-                    <p id="photoCarousel" class="text-center">Slide Show Creations</p>
+                    <p id="photoCarousel" className="text-center">Slide Show Creations</p>
                 </Row>
             </Container>
 

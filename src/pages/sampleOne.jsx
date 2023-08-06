@@ -9,7 +9,7 @@ function SampleOne() {
                 <Container fluid style={{ marginTop: 100 }}>
                 <Row>
                     <h1 className="homeTwo">Sample One</h1>
-                    <p id="home" class="text-center">This is a new route successfully connected to the particles main page using a button</p>
+                    <p id="home" className="text-center">This is a new route successfully connected to the particles main page using a button</p>
                 </Row>
             </Container>
 

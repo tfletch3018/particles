@@ -9,7 +9,7 @@ function SampleTwo() {
                 <Container fluid style={{ marginTop: 100 }}>
                 <Row>
                     <h1 className="homeTwo">Sample Two</h1>
-                    <p id="home" class="text-center">Now we are getting somewhere, what will we put here?</p>
+                    <p id="home" className="text-center">Now we are getting somewhere, what will we put here?</p>
                 </Row>
             </Container>
 
