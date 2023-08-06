@@ -5,10 +5,10 @@ import "../index.css";
 
 function ImageTwo() {
     return (
-        <div>
-            <Container>
+        <div className="background2">
+                <Container>
                 <Row>
-                    <h1 className="artWork">Image Two</h1>
+                    <h1 className="artWorkTwo">Image Two</h1>
                     <p id="artWork" class="text-center">Photo Element Innovation?</p>
                 </Row>
             </Container>

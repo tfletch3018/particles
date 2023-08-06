@@ -6,7 +6,7 @@ import "../index.css";
 function ArtWork() {
     return (
         <div>
-            <Container>
+                <Container fluid style={{ marginTop: 100 }}>
                 <Row>
                     <h1 className="artWork">artWork</h1>
                     <p id="artWork" class="text-center">Texture, pattern & color creations</p>

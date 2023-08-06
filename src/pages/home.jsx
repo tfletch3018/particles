@@ -11,7 +11,7 @@ function Home() {
 
                 <Animate />
 
-                <Container>
+                <Container fluid style={{ marginTop: 100}}>
                     <Row>
                         <h1 className="home">particles</h1>
                         <p id="home" class="text-center">Animation Creations</p>

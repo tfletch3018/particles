@@ -5,10 +5,11 @@ import "../index.css";
 
 function ImageOne() {
     return (
-        <div>
+        <div className="background1">
             <Container>
+                {/* <Container fluid style={{ marginTop: 100 }}> */}
                 <Row>
-                    <h1 className="artWork">Image One</h1>
+                    <h1 className="artWorkTwo">Image One</h1>
                     <p id="artWork" class="text-center">Maybe we will just use this for original styling elements</p>
                 </Row>
             </Container>

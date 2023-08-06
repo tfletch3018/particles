@@ -6,9 +6,9 @@ import "../index.css";
 function SampleTwo() {
     return (
         <div>
-            <Container>
+                <Container fluid style={{ marginTop: 100 }}>
                 <Row>
-                    <h1 className="home">Sample Two</h1>
+                    <h1 className="homeTwo">Sample Two</h1>
                     <p id="home" class="text-center">Now we are getting somewhere, what will we put here?</p>
                 </Row>
             </Container>

@@ -71,6 +71,14 @@ p {
   font-weight: 500;
 }
 
+h1 {
+  font-size: 100px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
 .center {
   display: flex;
   justify-content: center;
@@ -83,9 +91,19 @@ p {
 }
 
 .home {
+  background-color: var(--sand);
   color: var(--forest);
   text-shadow: 4px 4px 7px var(--mint);
   font-size: 100px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.homeTwo {
+  background-color: var(--sand);
+  color: var(--forest);
+  text-shadow: 4px 4px 7px var(--mint);
+  font-size: 60px;
   font-weight: bolder;
   text-align: center;
 }
@@ -172,6 +190,14 @@ p {
   text-align: center;
 }
 
+.artWorkTwo {
+  color: var(--raspberrySorbet);
+  text-shadow: 4px 4px 7px var(--blush);
+  font-size: 60px;
+  font-weight: bolder;
+  text-align: center;
+}
+
 #photoCarousel {
   color: var(--orchid);
   text-shadow: 4px 4px 7px var(--amethystOrchid);
@@ -184,10 +210,16 @@ p {
   font-weight: bolder;
   text-align: center;
 }
+.photoCarouselTwo {
+  color: var(--amethystOrchid);
+  text-shadow: 4px 4px 7px var(--orchid);
+  font-size: 60px;
+  font-weight: bolder;
+  text-align: center;
+}
 
 
 nav {
-
   width: 100%;
   overflow: auto;
   background-color: transparent;
@@ -216,4 +248,25 @@ nav a:focus {
 nav a:active {
   color: var(--palegold);
   text-shadow: 1.5px 1.5px 1.5px var(--gold);
+}
+
+.background1 {
+  height: 90vw;
+  /* height: 500px; */
+  justify-content: center;
+  align-items: center;
+  background-image: url("./images/background1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.background2 {
+  height: 90vw;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./images/background2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }

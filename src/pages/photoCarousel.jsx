@@ -6,7 +6,7 @@ import "../index.css";
 function PhotoCarousel() {
     return (
         <div>
-            <Container>
+                <Container fluid style={{ marginTop: 100 }}>
                 <Row>
                     <h1 className="photoCarousel">photoCarousel</h1>
                     <p id="photoCarousel" class="text-center">Slide Show Creations</p>

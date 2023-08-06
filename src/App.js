@@ -5,7 +5,8 @@ function App() {
   return (
 
     <div>
-      <nav>
+        <nav className="navbar navbar-expand-lg bg-transparent !important fixed-top z-index 999">
+
         <Link to="/home">particles</Link> {" "}
         <Link to="/artWork">artWork</Link>
         <Link to="/photoCarousel">photoCarousel</Link>

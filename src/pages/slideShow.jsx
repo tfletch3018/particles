@@ -7,9 +7,9 @@ import "../index.css";
 function SlideShow() {
     return (
         <div>
-            <Container>
+                <Container fluid style={{ marginTop: 100 }}>
                 <Row>
-                    <h1 className="photoCarousel">Slide Show!</h1>
+                    <h1 className="photoCarouselTwo">Slide Show!</h1>
                     <p id="photoCarousel" className="text-center">Enjoy the show&#128151;</p>
                 </Row>
             </Container>
