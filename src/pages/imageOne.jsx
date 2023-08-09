@@ -7,14 +7,12 @@ function ImageOne() {
     return (
         <div className="background1">
             <Container>
-                {/* <Container fluid style={{ marginTop: 100 }}> */}
                 <Row>
-                    <h1 className="artWorkTwo">Image One</h1>
                     <p id="artWork" className="text-center"></p>
                 </Row>
             </Container>
 
-            <Container fluid style={{ marginTop: 50 }}>
+            <Container>
                 <Row>
                     <div className="center">
                         <Link to="/artWork">
@@ -23,6 +21,13 @@ function ImageOne() {
                     </div>
                 </Row>
             </Container>
+
+            <Container fluid style={{ marginTop: 50 }}>
+                <Row>
+                    <h1 className="artWorkTwo">Image One</h1>
+                </Row>
+            </Container>
+
         </div>
     )
 }

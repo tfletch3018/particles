@@ -6,14 +6,14 @@ import "../index.css";
 function ImageTwo() {
     return (
         <div className="background2">
-                <Container>
+
+            <Container>
                 <Row>
-                    <h1 className="artWorkTwo">Image Two</h1>
                     <p id="artWork" className="text-center"></p>
                 </Row>
             </Container>
 
-            <Container fluid style={{ marginTop: 50 }}>
+            <Container>
                 <Row>
                     <div className="center">
                         <Link to="/artWork">
@@ -22,6 +22,13 @@ function ImageTwo() {
                     </div>
                 </Row>
             </Container>
+
+            <Container fluid style={{ marginTop: 50 }}>
+                <Row>
+                    <h1 className="artWorkTwo">Image Two</h1>
+                </Row>
+            </Container>
+
         </div>
     )
 }
