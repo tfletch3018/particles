@@ -5,9 +5,8 @@
   --raspberrySorbet:#d2386c;
 }
 .footer {
-  /* bottom: 0; */
   background-color: transparent;
-  flex: 0 0 50px;/*or just height:50px;*/
+  flex: 50px;
   margin-top: auto;
 }
 
@@ -60,7 +59,6 @@ i.fab:active {
 i.fas {
   color: var(--mint);
   text-shadow: 3px 3px 3px var(--forest);
-  /* font-size: 20px; */
   font-weight:bolder;
   text-align: center;
   padding: 30px;

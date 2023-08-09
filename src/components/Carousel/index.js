@@ -1,7 +1,6 @@
 import React from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-// import Container from '../Container';
 import photo1 from "./Photos/photo1.jpg";
 import photo2 from "./Photos/photo2.jpg";
 import photo3 from "./Photos/photo3.jpg";
@@ -13,12 +12,9 @@ import photo8 from "./Photos/photo8.jpg";
 import photo9 from "./Photos/photo9.jpg";
 import "./style.css"
 
-
-
 function CarouselComponent() {
     return (
 
-        // <Container>
         <div className="carousel-wrapper">
             <Carousel className="style" infiniteLoop useKeyboardArrows autoPlay>
 
