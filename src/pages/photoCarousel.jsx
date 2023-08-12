@@ -18,6 +18,9 @@ function PhotoCarousel() {
                         <Link to="/photoCarousel/slideShow">
                             <button id="photoCarouselbtn">Play Slide Show</button>
                         </Link>
+                        <Link to="/photoCarousel/slideShowOne">
+                            <button id="photoCarouselbtn">Play Slide Show</button>
+                        </Link>
                     </div>
                 </Row>
             </Container>

@@ -15,6 +15,7 @@ import SampleTwo from './pages/sampleTwo';
 import ImageOne from './pages/imageOne';
 import ImageTwo from './pages/imageTwo';
 import SlideShow from './pages/slideShow';
+import SlideShowOne from './pages/slideShowOne';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -36,6 +37,7 @@ root.render(
         <Route path="/artWork/imageOne" element={<ImageOne />} />
         <Route path="/artWork/imageTwo" element={<ImageTwo />} />
         <Route path="/photoCarousel/slideShow" element={<SlideShow />} />
+        <Route path="/photoCarousel/slideShowOne" element={<SlideShowOne />} />
 
       </Route>
     

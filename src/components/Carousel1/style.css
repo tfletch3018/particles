@@ -1,0 +1,50 @@
+:root {
+    --sand:#F7E9D4;
+    --raspberrySorbet:#d2386c; 
+     --orange:#ffa500; 
+     --navy: #000080;
+     --orchid:#ccccff; 
+     --amethystOrchid: #926aa6;
+     --milkchocolate: #996633;
+     --dark:#000000;
+  }
+
+.carousel-wrapper {
+    width: 100%;
+    height: 100vh;
+    position:relative;
+}
+
+.slides {
+    background-color: var(--dark);
+    text-align: center;
+    max-height: 100vh;
+    width: 100%;
+    position: flex;
+}
+
+h3 {
+    color: var(--sand);
+    text-shadow: 4px 4px 7px var(--milkchocolate);
+}
+
+ a:link {
+    color: var(--orchid);
+    text-shadow: 4px 4px 7px var(--amethystOrchid);  
+}
+
+a:hover {
+    color: var(--marigold);
+    text-shadow: 4px 4px 7px var(--orange);  
+}
+
+a:active {
+    color: var(--cerulean);
+    text-shadow: 4px 4px 7px var(--navy);  
+}
+
+a:focus {
+    color: var(--blush);
+    text-shadow: 4px 4px 7px var(--raspberrySorbet);  
+
+}
