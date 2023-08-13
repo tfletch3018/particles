@@ -7,13 +7,8 @@ import "../index.css";
 function SlideShowOne() {
     return (
         <div>
-            <Container fluid style={{ marginTop: 20 }}>
-                <Row>
-                    <h1 className="photoCarouselTwo">Another Slide Show!</h1>
-                </Row>
-            </Container>
 
-            <Container fluid style={{ marginTop: 0 }}>
+<Container fluid style={{ marginTop: 20 }}>
                 <Row>
                     <div className="center">
                         <Link to="/photoCarousel">
@@ -23,14 +18,22 @@ function SlideShowOne() {
                 </Row>
             </Container>
 
-            <Container>
+            <Container fluid style={{ marginTop: 20 }}>
                 <Row>
-                    <p id="photoCarousel" className="text-center">Enjoy the show&#128151;</p>
+                    <h1 className="photoCarouselTwo">Another Slide Show!</h1>
                 </Row>
             </Container>
 
+        
+
             <Container>
                 <Carousel1 />
+            </Container>
+
+            <Container>
+                <Row>
+                    <p id="photoCarousel" className="text-center">&#128151;Enjoy!&#128151;</p>
+                </Row>
             </Container>
 
         </div>
