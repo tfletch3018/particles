@@ -24,7 +24,7 @@ function ImageOne() {
 
             <Container fluid style={{ marginTop: 50 }}>
                 <Row>
-                    <h1 className="artWorkTwo">Image One</h1>
+                    <h1 className="artWorkTwo"><a id="artWork"href="https://tfletch3018.github.io/DesignSamples_Company/">DesignSample Company</a></h1>
                 </Row>
             </Container>
 
